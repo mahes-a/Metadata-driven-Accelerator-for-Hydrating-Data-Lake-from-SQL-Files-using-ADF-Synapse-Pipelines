@@ -1,7 +1,6 @@
 # Metadata-driven-Accelerator-for-Hydrating-Data-Lake-from-SQL-Files-using-ADF-Synapse-Pipelines
 Metadata driven Accelerator for Hydrating Data Lake from SQL &amp; Files using ADF/Synapse Pipelines
 
-Metadata driven Accelerator for Hydrating Data Lake from SQL &amp; Files using ADF/Synapse Pipelines
 
 This Accelerator demonstrates copying a number of tables from multiple SQL servers and multiple sql databases and files to Azure Data Lake Storage. You can apply the same pattern in other copy scenarios as well. For example, copying tables from Oracle to Azure Blob. When establishing Analytics workloads in Azure the first step is to establish pipelines that can pull data for initial loads and ongoing delta loads to Azure data lake storage. Furthermore there are multiple ways to capture delta changes like Change Capture, CDC, Watermark in SQL, The template provides samples to handle all the scenarios in a generic meta-driven manner
 
