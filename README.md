@@ -5,16 +5,19 @@ Metadata driven Accelerator for Hydrating Data Lake from SQL &amp; Files using A
 This Accelerator demonstrates copying a number of tables from multiple SQL servers and multiple sql databases and files to Azure Data Lake Storage. You can apply the same pattern in other copy scenarios as well. For example, copying tables from Oracle to Azure Blob. When establishing Analytics workloads in Azure the first step is to establish pipelines that can pull data for initial loads and ongoing delta loads to Azure data lake storage. Furthermore there are multiple ways to capture delta changes like Change Capture, CDC, Watermark in SQL, The template provides samples to handle all the scenarios in a generic meta-driven manner
 
 The accelerator contains.
-
-•	SQL Scripts to create the metadata table that holds all SQL object details and their copy mechanisms (CDC, watermark etc.)
-•	Generic ADF Pipelines which handles SQL Delta Copy mechanisms of CDC, Change Tracking, Watermark, Files, Full loads.
+    SQL Scripts to create the metadata table that holds all SQL object details and their copy mechanisms (CDC, watermark etc.)
+    
+    Generic ADF Pipelines which handles SQL Delta Copy mechanisms of CDC, Change Tracking, Watermark, Files, Full loads.
+    
     There are Driver and Executor pipelines.
+    
     The Driver Pipeline reads the data from metadata tables and executes the respective delta mechanism executor pipelines.
 
 
 Step 1: -
 To enable import, Source Control needs to be enabled.
 https://learn.microsoft.com/en-us/azure/data-factory/source-control#connect-to-a-git-repository
+
 
 Step 2: -
 In ADF Home Page chose “Pipeline Templates”
