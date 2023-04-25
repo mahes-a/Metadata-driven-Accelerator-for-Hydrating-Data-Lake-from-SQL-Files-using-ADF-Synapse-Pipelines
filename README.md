@@ -29,7 +29,8 @@ Import the Template Zip file “PL_Generic_Ingest_Executor_Template.zip”
  
 Step 4: -
 Click OK to import the template.
- ![image](https://user-images.githubusercontent.com/120069348/234419407-6edb6da0-d7fd-46d3-967b-62304ab5a31f.png)
+![image](https://user-images.githubusercontent.com/120069348/234426349-fd515ee1-50aa-44ad-aba4-af6051a085cd.png)
+
 
 
 Step 5: -
