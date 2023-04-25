@@ -63,8 +63,10 @@ PL_GENERIC_SQL_CDC_INGEST
 Step 8:
 Execute the SQL Scripts in the Configuration SQL server and insert values into ControlTableIntegrated table. Configure the table name and values in corresponding tables. 
 For Example: - Add the table name and watermark value in [table_store_watermark_value]
+
 Refer to below to learn more on the methodology and tables used in watermark mode.
 https://learn.microsoft.com/en-us/azure/data-factory/tutorial-incremental-copy-multiple-tables-portal
+
 For Change tracking refer to
 [Incrementally copy data by using change tracking in the Azure portal - Azure Data Factory | Microsoft Learn](https://learn.microsoft.com/en-us/azure/data-factory/tutorial-incremental-copy-change-tracking-feature-portal)
 
